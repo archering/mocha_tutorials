@@ -19,11 +19,13 @@ class Math{
     //乘法
     multiple(a,b){
 
+        return a*b;
     }
 
     //次方
-    pow(){
+    pow(a,b){
 
+        return a**b;
     }
 
 

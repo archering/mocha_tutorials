@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "mocha":"node_modules/.bin/mocha test/**/*.js --watch",
-    "test": "node_modules/.bin/mocha test/**/*.js --watch"
+    "mocha": "node_modules/.bin/mocha test/**/*.js --watch --exclude test/help.js",
+    "test": "node_modules/.bin/mocha test/**/*.js --watch --exclude test/help.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.0.1"
+    "mocha": "^8.0.1",
+    "requirejs-mock": "^1.0.1"
+  },
+  "dependencies": {
+    "amdefine": "^1.0.1",
+    "requirejs": "^2.3.6"
   }
 }

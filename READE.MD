@@ -34,3 +34,15 @@ BDD  development flow：
 5，We add more use cases to the spec, probably not yet supported by the implementations. Tests start to fail.
 6，Go to 3, update the implementation till tests give no errors.
 7，Repat steps 3-6 till the functionality is ready.
+
+
+
+------
+
+针对AMD模块化编程的支持
+
+    npm install requirejs --save
+
+    npm install requirejs-mock --save-dev
+
+    npm install amdefine
