@@ -1,5 +1,10 @@
 {
     "vscode-janus-debug.uploadOnSave": [
-        "require.spec.a"
+        "require.spec.a",
+        "require.spec.b",
+        "require.module.a"
+    ],
+    "vscode-janus-debug.uploadManually": [
+        "require.module.b"
     ]
 }
